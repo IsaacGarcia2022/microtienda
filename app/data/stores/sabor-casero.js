@@ -3,8 +3,8 @@ export default {
   name: 'Sabor Casero',
   tagline: 'Postres artesanales a domicilio',
   mode: 'products',
-  whatsapp: '51911122333',
-  currency: 'S/ ',
+  whatsapp: '50363009262',
+  currency: '$',
   theme: {
     primary: '#ea580c',
     secondary: '#f59e0b',
@@ -130,7 +130,7 @@ export default {
           ['Incluye', 'Torta + 12 cupcakes + globos'],
           ['Torta', 'Elige entre 3 sabores'],
           ['Pedido', 'Con 48 h de anticipación'],
-          ['Entrega', 'Instalación de mesa incluida en Lima']
+          ['Entrega', 'Instalación de mesa incluida en San Salvador']
         ],
         badge: 'Oferta'
       },
@@ -158,13 +158,13 @@ export default {
     shipping: {
       title: 'Zonas y tarifas de entrega',
       zones: [
-        { zone: 'San Miguel / Magdalena', price: 'S/ 8' },
-        { zone: 'Miraflores / Surco', price: 'S/ 12' },
-        { zone: 'Otras zonas', price: 'S/ 15 – 20' }
+        { zone: 'San Salvador centro', price: '$8' },
+        { zone: 'Santa Tecla / Antiguo Cuscatlán', price: '$12' },
+        { zone: 'Otras zonas', price: '$15 – 20' }
       ],
       note: 'Entregas de 4:00 pm a 9:00 pm. Pedidos con 24 horas de anticipación.'
     },
-    paymentMethods: ['Efectivo', 'Transferencia', 'Yape', 'Plin'],
+    paymentMethods: ['Efectivo', 'Transferencia'],
     testimonials: [
       {
         name: 'Andrea P.',
@@ -193,18 +193,18 @@ export default {
   },
   location: {
     title: 'Zona de cobertura',
-    address: 'Urb. Las Flores 456, San Miguel, Lima',
-    zones: 'Entregamos en Lima centro y sur. Pregunta por otras zonas.',
-    mapLink: 'https://www.google.com/maps/search/?api=1&query=Urb.+Las+Flores+456+San+Miguel+Lima'
+    address: 'Res. Las Flores 456, Colonia Escalón, San Salvador',
+    zones: 'Entregamos en San Salvador y Santa Tecla. Pregunta por otras zonas.',
+    mapLink: 'https://www.google.com/maps/search/?api=1&query=Res.+Las+Flores+456+Colonia+Escalon+San+Salvador'
   },
   contact: {
     title: 'Contáctanos',
     hours: 'Lun a Dom: 9:00 am – 9:00 pm',
-    phone: '+51 911 122 333',
+    phone: '+503 6300 9262',
     social: {
-      instagram: 'https://instagram.com/saborcasero.pe',
-      tiktok: 'https://tiktok.com/@saborcasero.pe',
-      facebook: 'https://facebook.com/saborcasero.pe'
+      instagram: 'https://instagram.com/saborcasero.sv',
+      tiktok: 'https://tiktok.com/@saborcasero.sv',
+      facebook: 'https://facebook.com/saborcasero.sv'
     }
   },
   sections: ['hero', 'catalog', 'howItWorks', 'trust', 'about', 'location']

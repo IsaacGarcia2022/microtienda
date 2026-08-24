@@ -3,8 +3,8 @@ export default {
   name: 'Luna Moda',
   tagline: 'Ropa y accesorios con estilo propio',
   mode: 'products',
-  whatsapp: '51987654321',
-  currency: 'S/ ',
+  whatsapp: '50363009262',
+  currency: '$',
   theme: {
     primary: '#e11d48',
     secondary: '#f43f5e',
@@ -156,13 +156,13 @@ export default {
     shipping: {
       title: 'Zonas y tarifas de envío',
       zones: [
-        { zone: 'Lima centro', price: 'S/ 7' },
-        { zone: 'Lima norte y sur', price: 'S/ 10' },
-        { zone: 'Provincias', price: 'S/ 15 – 25' }
+        { zone: 'San Salvador centro', price: '$7' },
+        { zone: 'Santa Tecla y Antiguo Cuscatlán', price: '$10' },
+        { zone: 'A nivel nacional', price: '$15 – 25' }
       ],
       note: 'Envíos los martes y viernes. Puedes pasar a recoger sin costo.'
     },
-    paymentMethods: ['Efectivo', 'Transferencia', 'Yape', 'Plin'],
+    paymentMethods: ['Efectivo', 'Transferencia'],
     testimonials: [
       {
         name: 'María G.',
@@ -191,18 +191,18 @@ export default {
   },
   location: {
     title: 'Ubicación y cobertura',
-    address: 'Av. Principal 123, Miraflores, Lima',
-    zones: 'Atendemos Lima Metropolitana y enviamos a todo el Perú.',
-    mapLink: 'https://www.google.com/maps/search/?api=1&query=Av.+Principal+123+Miraflores+Lima'
+    address: 'Av. La Revolución 123, Santa Tecla, La Libertad',
+    zones: 'Atendemos San Salvador y Santa Tecla, y enviamos a todo el país.',
+    mapLink: 'https://www.google.com/maps/search/?api=1&query=Av.+La+Revolucion+123+Santa+Tecla+La+Libertad'
   },
   contact: {
     title: 'Contáctanos',
     hours: 'Lun a Sáb: 9:00 am – 8:00 pm',
-    phone: '+51 987 654 321',
+    phone: '+503 6300 9262',
     social: {
-      instagram: 'https://instagram.com/lunamoda.peru',
-      tiktok: 'https://tiktok.com/@lunamoda.peru',
-      facebook: 'https://facebook.com/lunamoda.peru'
+      instagram: 'https://instagram.com/lunamoda.sv',
+      tiktok: 'https://tiktok.com/@lunamoda.sv',
+      facebook: 'https://facebook.com/lunamoda.sv'
     }
   },
   sections: ['hero', 'catalog', 'howItWorks', 'trust', 'about', 'location']

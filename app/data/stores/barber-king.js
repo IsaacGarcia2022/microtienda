@@ -3,8 +3,8 @@ export default {
   name: 'Barber King',
   tagline: 'Tu imagen, nuestro arte',
   mode: 'services',
-  whatsapp: '51933344555',
-  currency: 'S/ ',
+  whatsapp: '50363009262',
+  currency: '$',
   theme: {
     primary: '#2563eb',
     secondary: '#06b6d4',
@@ -67,7 +67,7 @@ export default {
         details: [
           ['Duración', '~20 min'],
           ['Incluye', 'Toalla caliente + perfilado + aceite'],
-          ['Adicional', 'Mascarilla facial +S/ 10']
+          ['Adicional', 'Mascarilla facial +$10']
         ]
       },
       {
@@ -88,12 +88,12 @@ export default {
           '/images/barber-king/corte-barba.svg',
           '/images/barber-king/corte-barba-2.svg'
         ],
-        description: 'El combo clásico. Ahorra S/ 10. ~60 min.',
-        longDescription: 'Nuestro combo más pedido: corte completo + barba con toalla caliente. Ahorra S/ 10 frente a pedirlos por separado.',
+        description: 'El combo clásico. Ahorra $10. ~60 min.',
+        longDescription: 'Nuestro combo más pedido: corte completo + barba con toalla caliente. Ahorra $10 frente a pedirlos por separado.',
         details: [
           ['Duración', '~60 min'],
           ['Incluye', 'Corte + barba completa'],
-          ['Ahorro', 'S/ 10 vs. servicio por separado']
+          ['Ahorro', '$10 vs. servicio por separado']
         ]
       },
       {
@@ -155,7 +155,7 @@ export default {
       ],
       note: 'Promo estudiantes (Lun–Mi): 15% de descuento con carné.'
     },
-    paymentMethods: ['Efectivo', 'Transferencia', 'Yape', 'Plin'],
+    paymentMethods: ['Efectivo', 'Transferencia'],
     testimonials: [
       {
         name: 'Renzo A.',
@@ -184,18 +184,18 @@ export default {
   },
   location: {
     title: 'Ubicación',
-    address: 'Jr. Los Barrios 789, Lince, Lima',
+    address: 'Av. Masferrer 789, Colonia Escalón, San Salvador',
     zones: 'A dos cuadras de la avenida principal, con estacionamiento.',
-    mapLink: 'https://www.google.com/maps/search/?api=1&query=Jr.+Los+Barrios+789+Lince+Lima'
+    mapLink: 'https://www.google.com/maps/search/?api=1&query=Av.+Masferrer+789+Colonia+Escalon+San+Salvador'
   },
   contact: {
     title: 'Contáctanos',
     hours: 'Lun a Sáb: 9:00 am – 9:00 pm',
-    phone: '+51 933 344 555',
+    phone: '+503 6300 9262',
     social: {
-      instagram: 'https://instagram.com/barberking.lima',
-      tiktok: 'https://tiktok.com/@barberking.lima',
-      facebook: 'https://facebook.com/barberking.lima'
+      instagram: 'https://instagram.com/barberking.sv',
+      tiktok: 'https://tiktok.com/@barberking.sv',
+      facebook: 'https://facebook.com/barberking.sv'
     }
   },
   sections: ['hero', 'catalog', 'howItWorks', 'trust', 'about', 'location']

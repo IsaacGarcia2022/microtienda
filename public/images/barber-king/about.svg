@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
   <defs>
-    <linearGradient id="gvf8i5" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g5a9au" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#3b73ed"/>
       <stop offset="100%" stop-color="#1a45a5"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="600" rx="0" fill="url(#gvf8i5)"/>
+  <rect width="800" height="600" rx="0" fill="url(#g5a9au)"/>
   <circle cx="680" cy="108" r="132" fill="#ffffff" opacity="0.12"/>
   <circle cx="80" cy="510" r="168.00000000000003" fill="#ffffff" opacity="0.08"/>
   <text x="50%" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="33" font-weight="700" fill="#ffffff">Sobre Barber King</text>
