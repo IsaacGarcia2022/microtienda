@@ -1,0 +1,21 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/main.css',
+    configPath: 'tailwind.config'
+  },
+  nitro: {
+    prerender: {
+      routes: [
+        '/',
+        '/tienda/ropa-luna',
+        '/tienda/sabor-casero',
+        '/tienda/barber-king'
+      ],
+      crawlLinks: true
+    }
+  }
+})

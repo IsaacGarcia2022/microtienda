@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="gyej27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#467aee"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="0" fill="url(#gyej27)"/>
+  <circle cx="1020" cy="162" r="198" fill="#ffffff" opacity="0.12"/>
+  <circle cx="120" cy="765" r="252.00000000000003" fill="#ffffff" opacity="0.08"/>
+  <text x="50%" y="446" text-anchor="middle" font-family="system-ui, sans-serif" font-size="50" font-weight="700" fill="#ffffff">Tu imagen, nuestro arte</text>
+  <text x="50%" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="25" fill="#ffffff" opacity="0.85">Tu imagen, nuestro arte</text>
+</svg>
