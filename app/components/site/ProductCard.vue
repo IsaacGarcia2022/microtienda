@@ -47,17 +47,18 @@
           :href="wa"
           target="_blank"
           rel="noopener"
-          class="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[color:var(--primary)] px-4 py-2.5 text-sm font-semibold text-white transition hover:opacity-90"
+          aria-label="Pedir por WhatsApp"
+          class="inline-flex h-11 flex-1 items-center justify-center rounded-full bg-[color:var(--primary)] text-white transition hover:opacity-90"
         >
-          <IconWhatsapp :size="16" />
-          Pedir
+          <IconWhatsapp :size="20" />
         </a>
         <button
           type="button"
-          class="inline-flex min-h-11 items-center justify-center rounded-full border border-zinc-200 px-4 py-2.5 text-sm font-semibold text-zinc-700 transition hover:border-zinc-300 hover:text-zinc-900"
+          :aria-label="`Ver más sobre ${item.name}`"
+          class="inline-flex h-11 flex-1 items-center justify-center rounded-full border border-zinc-200 text-zinc-700 transition hover:border-zinc-300 hover:text-[color:var(--primary)]"
           @click="$emit('view', item)"
         >
-          Ver más
+          <IconInfo :size="20" />
         </button>
       </div>
     </div>
@@ -67,6 +68,7 @@
 <script setup>
 import { formatPrice, waLinkItem } from '~/utils/stores'
 import IconWhatsapp from '~/components/ui/IconWhatsapp.vue'
+import IconInfo from '~/components/ui/IconInfo.vue'
 
 const props = defineProps({
   store: { type: Object, required: true },
